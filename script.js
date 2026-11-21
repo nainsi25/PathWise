@@ -3,7 +3,7 @@
 // ==========================================
 // // ===== API URL =====
 
-const API_URL = "https://pathwise-vwou.onrender.com";
+const API_URL = "/api";
 
 // ==========================================
 // 1. LEARNING GOAL AND SUB-GOAL DROPDOWN

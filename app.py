@@ -10,24 +10,40 @@ load_dotenv()
 from ml_model.recommend import generate_learning_path
 
 app = Flask(__name__)
-app.secret_key = os.getenv("FLASK_SECRET_KEY")
-CORS(app, supports_credentials=True)
 
+app.secret_key = os.getenv("FLASK_SECRET_KEY")
+
+app.config.update(
+    SESSION_COOKIE_SAMESITE="None",
+    SESSION_COOKIE_SECURE=True
+)
+
+CORS(
+    app,
+    origins=["https://pathwiselearningpath.netlify.app"],
+    supports_credentials=True
+)
 
 # MySQL Database Connection
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+print("TiDB HOST:", os.getenv("DB_HOST"))
+print("DATABASE NAME:", os.getenv("DB_NAME"))
 def get_db_connection():
     return mysql.connector.connect(
         host=os.getenv("DB_HOST"),
+        port=int(os.getenv("DB_PORT", "4000")),
         user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
-        database=os.getenv("DB_NAME")
+        database=os.getenv("DB_NAME"),
+        ssl_ca=os.path.join(BASE_DIR, os.getenv("DB_SSL_CA")),
+        ssl_verify_cert=True
     )
 
 
-
-# Home API
 @app.route("/")
 def home():
+    print("HOME API CALLED", flush=True)
     return "PathWise Backend and MySQL Connected Successfully!"
 
 
@@ -645,4 +661,4 @@ def delete_goal(goal_id):
 # =====================================
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
