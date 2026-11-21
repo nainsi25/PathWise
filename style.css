@@ -1,0 +1,988 @@
+/* ===== Basic Setup ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #25243a;
+}
+
+/* ===== Navigation Bar ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 7%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeaf8;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    color: #232139;
+}
+
+.logo span {
+    color: #6857d9;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #66667a;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #6857d9;
+}
+
+/* Home Page Styling */
+
+#home {
+    background: linear-gradient(
+        135deg,
+        #E5DCF3,
+        #DFE5F8,
+        #DAD2EF
+    ) !important;
+
+    padding: 70px 50px !important;
+    margin: 25px auto !important;
+
+    min-height: 600px;
+
+    border-radius: 22px;
+    box-shadow: 0 8px 22px rgba(147, 130, 182, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 1180px;
+}
+#home {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Home Heading */
+
+#home h1 {
+    color: #352052;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+/* Home Subheading */
+
+#home h2 {
+    color: #493366;
+    margin-bottom: 18px;
+}
+
+/* Home Paragraph */
+
+#home p {
+    color: #493F60;
+    line-height: 1.8;
+    margin-bottom: 22px;
+     
+}
+
+/* ===== Buttons ===== */
+button {
+    background-color: #6857d9;
+    color: #ffffff;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5040bb;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+}
+/* ===== Learning Path Section ===== */
+
+.learning-section {
+    width: 90%;
+    max-width: 1180px;
+    min-height: 600px;
+    padding: 80px 50px;
+    background: #c4d3ee;
+    border-radius: 18px;
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+.learning-section {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.learning-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-heading h2 span {
+    color: #6857d9;
+}
+
+.section-heading p {
+    color: #77778d;
+    line-height: 1.7;
+}
+
+#learningForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 35px;
+    border: 1px solid #eceaf5;
+    border-radius: 18px;
+    background: #faf9ff;
+    box-shadow: 0 10px 35px rgba(70, 55, 130, 0.07);
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ded9f0;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #25243a;
+    outline: none;
+}
+
+.form-group select:focus {
+    border-color: #6857d9;
+}
+
+#learningForm button {
+    width: 100%;
+}
+
+.learning-result {
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 25px;
+    background: #f2efff;
+    border-radius: 15px;
+    line-height: 1.8;
+}
+
+.learning-result h3 {
+    color: #5040bb;
+    margin-bottom: 12px;
+}
+
+.learning-result ul {
+    padding-left: 22px;
+    margin-top: 12px;
+}
+/* Daily Planner */
+
+.daily-planner {
+    padding: 50px 30px;
+    max-width: 1100px;
+    margin: 30px auto;
+
+     background: #EDE7F6;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    border-radius: 18px;
+}
+.daily-planner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.planner-header {
+    margin-bottom: 30px;
+}
+
+.planner-header h2 {
+    font-size: 30px;
+    color: #292653;
+    margin-bottom: 10px;
+}
+
+.planner-header p {
+    color: #777;
+    font-size: 16px;
+}
+
+.planner-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    margin-bottom: 35px;
+}
+
+.planner-card h3 {
+    margin-bottom: 22px;
+    color: #292653;
+}
+
+#taskForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#taskForm input,
+#taskForm select {
+    flex: 1 1 180px;
+    min-width: 0;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+#taskForm button {
+    padding: 14px 25px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#taskForm button:hover {
+    background: #554bd8;
+}
+
+.tasks-container h3 {
+    color: #292653;
+    margin-bottom: 20px;
+}
+
+#taskList > div {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+}
+
+#taskList h4 {
+    color: #292653;
+    margin-bottom: 8px;
+}
+/* Progress Tracking */
+
+.progress-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: #EDE7F6;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+.progress-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.progress-header {
+    margin-bottom: 30px;
+}
+
+.progress-header h2 {
+    font-size: 30px;
+    color: #292653;
+    margin-bottom: 10px;
+}
+
+.progress-header p {
+    color: #777;
+}
+
+.progress-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.progress-card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.progress-card h3 {
+    color: #777;
+    font-size: 16px;
+}
+
+.progress-card p {
+    color: #6c63ff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.progress-bar-container {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.progress-bar {
+    height: 14px;
+    background: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 0 12px;
+}
+
+#progressFill {
+    width: 0%;
+    height: 100%;
+    background: #6c63ff;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+#progressPercentage {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .progress-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* My Goals Section */
+
+#goals {
+    width: 90%;
+    max-width: 1180px;
+    min-height: 600px;
+    padding: 60px 50px;
+    margin: 25px auto;
+    background: #EDE7F6;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(60, 40, 100, 0.15);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+#goals::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+
+#goals h2 {
+    margin-bottom: 25px;
+}
+
+#goalForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#goalForm input,
+#goalForm select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+#goalForm button {
+    padding: 12px 25px;
+    background:#2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#goalList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.goal-card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+.goal-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.goal-card-header h3 {
+    font-size: 18px;
+    color: #1f1f1f;
+}
+
+.goal-status {
+    background: #e7f5eb;
+    color: #287a43;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.goal-card-details p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.no-goals {
+    color: #777;
+}
+/* Delete Goal Button */
+
+.delete-goal-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.delete-goal-btn:hover {
+    background: #1d4ed8;
+}
+/* My Goals - Professional Cards */
+
+.goal-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.goal-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+.goal-card h3 {
+    font-size: 19px;
+    color: #1e293b;
+    margin-bottom: 18px;
+}
+
+.goal-card p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.goal-card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 12px 5px 0 0;
+    background: #2563eb;
+    color: white;
+}
+
+.goal-card button:hover {
+    background: #1d4ed8;
+}
+/* Delete Button Styling */
+
+button[onclick^="deleteTask"],
+button[onclick^="deleteGoal"] {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: 0.3s ease;
+}
+
+button[onclick^="deleteTask"]:hover,
+button[onclick^="deleteGoal"]:hover {
+    background-color: #b02a37;
+    transform: translateY(-2px);
+}
+/* Complete Button Styling */
+
+button[onclick^="completeTask"] {
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: 0.3s ease;
+}
+/* PathWise Background */
+
+body {
+    background: linear-gradient(
+        135deg,
+        #B8C6F0 0%,
+        #C9B6E4 50%,
+        #A9C9E8 100%
+    ) !important;
+}
+
+/* Main Sections */
+
+section {
+    background-color: #EAE5F5 !important;
+    border: 1px solid #D3C6E8;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(50, 40, 90, 0.15);
+}
+/* Completed Task and Goal Buttons */
+
+button[onclick^="completeTask"]:disabled,
+button[onclick^="completeGoal"]:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+/* Authentication Section */
+
+#auth-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #B8C6F0,
+        #C9B6E4,
+        #A9C9E8
+    );
+    padding: 30px;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 430px;
+    background: #F8F6FC;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(50, 40, 90, 0.18);
+}
+
+.auth-container h1 {
+    color: #352052;
+    margin-bottom: 12px;
+}
+
+.auth-container h1 span {
+    color: #8064B5;
+}
+
+.auth-container > p {
+    color: #625779;
+    margin-bottom: 25px;
+}
+
+.auth-container h2 {
+    color: #493366;
+    margin-bottom: 20px;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #D3C6E8;
+    border-radius: 9px;
+    font-size: 15px;
+    outline: none;
+}
+
+.auth-container input:focus {
+    border-color: #8064B5;
+}
+
+.auth-container button {
+    padding: 13px;
+    background: #8064B5;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background: #684C9C;
+}
+
+.auth-container a {
+    color: #7657A8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#authMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+/* Fix Hidden Sections */
+[hidden] {
+    display: none !important;
+}
+/* Logout Button Styling */
+
+#logoutBtn {
+    background: #8064B5;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+
+#logoutBtn:hover {
+    background: #684C9C;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(104, 76, 156, 0.25);
+}
+
+#logoutBtn:active {
+    transform: scale(0.97);
+}
+/* Navbar Styling */
+header {
+    background: linear-gradient(135deg, #8e96e1, #a388e2) !important;
+    box-shadow: 0 4px 14px rgba(100, 20, 20, 0.2);
+}
+
+header nav a {
+    color: white;
+}
+
+header nav a:hover {
+    color: #FFE0E0;
+}
+
+header h1 {
+    color: white;
+}
+/* Common Background for All Main Sections */
+
+#home,
+#opportunities,
+.learning-section,
+.daily-planner,
+.progress-section,
+#goals {
+    background: linear-gradient(
+        135deg,
+        #E5DCF3,
+        #DFE5F8,
+        #DAD2EF
+    ) !important;
+}
+/* Explore Opportunities */
+#opportunities {
+    width: 90%;
+    max-width: 1180px;
+    min-height: 420px;
+    height: auto;
+    padding: 40px 40px;
+    margin: 25px auto;
+    box-sizing: border-box;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(60, 40, 90, 0.10);
+}
+
+
+#opportunityForm {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+#opportunityForm .form-group {
+    margin-bottom: 22px;
+}
+
+#opportunityForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#opportunityForm select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#opportunityForm button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #6C4AB6;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+#opportunities {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#opportunities::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("doodles.svg");
+    background-repeat: repeat;
+    background-size: 320px 320px;
+    opacity: 1.50;
+    z-index: -1;
+    pointer-events: none;
+}
+/* Explore Opportunities Results */
+
+#opportunityResults {
+    margin-top: 25px;
+    overflow-x: auto;
+}
+
+#opportunityResults h3 {
+    text-align: center;
+    color: #493477;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#opportunityResults table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#opportunityResults th {
+    background: #6C4AB6;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#opportunityResults td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd4ed;
+    color: #333;
+    font-size: 13px;
+}
+
+#opportunityResults tr:last-child td {
+    border-bottom: none;
+}
+
+#opportunityResults tr:hover {
+    background: rgba(108, 74, 182, 0.08);
+}
+
+#opportunityResults a {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #6C4AB6;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+#opportunityResults a:hover {
+    background: #493477;
+}
+.coming-soon {
+    width: 75%;
+    margin: 30px auto 10px;
+    padding: 30px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid #c9b8e8;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(73, 52, 119, 0.12);
+}
+
+.coming-soon h3 {
+    color: #493477;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.coming-soon p {
+    color: #514568;
+    font-size: 16px;
+    font-weight: 500;
+}/* Delete Learning Path Button */
+
+#deleteLearningPath {
+    padding: 10px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+#deleteLearningPath:hover {
+    background-color: #b02a37;
+    transform: translateY(-2px);
+}

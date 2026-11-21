@@ -1,0 +1,611 @@
+goal,sub_goal,topic,sequence,priority,estimated_days
+programming,C,C Programming Fundamentals,1,High,2
+programming,C,Variables and Data Types,2,High,2
+programming,C,Operators and Expressions,3,High,2
+programming,C,Conditional Statements,4,High,2
+programming,C,Loops,5,High,2
+programming,C,Functions,6,High,2
+programming,C,Arrays and Strings,7,Medium,3
+programming,C,Pointers,8,Medium,3
+programming,C,Structures,9,Medium,3
+programming,C,Dynamic Memory Allocation,10,Medium,3
+programming,C,File Handling,11,Medium,3
+programming,C,Mini Project,12,Medium,3
+programming,C++,C++ Fundamentals,1,High,2
+programming,C++,Variables and Data Types,2,High,2
+programming,C++,Operators and Control Flow,3,High,2
+programming,C++,Functions,4,High,2
+programming,C++,Arrays and Strings,5,High,2
+programming,C++,Pointers and References,6,High,2
+programming,C++,Object Oriented Programming,7,Medium,3
+programming,C++,Inheritance and Polymorphism,8,Medium,3
+programming,C++,STL,9,Medium,3
+programming,C++,Templates,10,Medium,3
+programming,C++,File Handling,11,Medium,3
+programming,C++,Mini Project,12,Medium,3
+programming,Java,Java Fundamentals,1,High,2
+programming,Java,Variables and Data Types,2,High,2
+programming,Java,Operators and Control Flow,3,High,2
+programming,Java,Arrays and Strings,4,High,2
+programming,Java,Methods,5,High,2
+programming,Java,Object Oriented Programming,6,High,2
+programming,Java,Exception Handling,7,Medium,3
+programming,Java,Collections Framework,8,Medium,3
+programming,Java,Generics,9,Medium,3
+programming,Java,File Handling,10,Medium,3
+programming,Java,JDBC Basics,11,Medium,3
+programming,Java,Mini Project,12,Medium,3
+programming,Python,Programming Fundamentals,1,High,2
+programming,Python,Variables and Data Types,2,High,2
+programming,Python,Operators,3,High,2
+programming,Python,Conditional Statements,4,High,2
+programming,Python,Loops,5,High,2
+programming,Python,Strings,6,High,2
+programming,Python,Lists and Tuples,7,Medium,3
+programming,Python,Dictionaries and Sets,8,Medium,3
+programming,Python,Functions,9,Medium,3
+programming,Python,Modules and Packages,10,Medium,3
+programming,Python,File Handling,11,Medium,3
+programming,Python,Exception Handling,12,Medium,3
+programming,Python,OOP Concepts,13,Medium,3
+programming,Python,List Comprehensions,14,Medium,3
+programming,Python,Iterators and Generators,15,Medium,3
+programming,Python,Decorators,16,Medium,3
+programming,Python,Mini Project,17,Medium,3
+programming,JavaScript,JavaScript Fundamentals,1,High,2
+programming,JavaScript,Variables and Data Types,2,High,2
+programming,JavaScript,Operators and Control Flow,3,High,2
+programming,JavaScript,Functions,4,High,2
+programming,JavaScript,Arrays and Objects,5,High,2
+programming,JavaScript,DOM Manipulation,6,High,2
+programming,JavaScript,Event Handling,7,Medium,3
+programming,JavaScript,Asynchronous JavaScript,8,Medium,3
+programming,JavaScript,Fetch API,9,Medium,3
+programming,JavaScript,ES6 Modules,10,Medium,3
+programming,JavaScript,Error Handling,11,Medium,3
+programming,JavaScript,Mini Project,12,Medium,3
+programming,C#,C# Fundamentals,1,High,2
+programming,C#,Variables and Data Types,2,High,2
+programming,C#,Control Flow,3,High,2
+programming,C#,Methods,4,High,2
+programming,C#,Arrays and Collections,5,High,2
+programming,C#,Object Oriented Programming,6,High,2
+programming,C#,Exception Handling,7,Medium,3
+programming,C#,LINQ,8,Medium,3
+programming,C#,File Handling,9,Medium,3
+programming,C#,Async and Await,10,Medium,3
+programming,C#,Mini Project,11,Medium,3
+programming,Other,Programming Fundamentals,1,High,2
+programming,Other,Variables and Data Types,2,High,2
+programming,Other,Operators,3,High,2
+programming,Other,Conditional Statements,4,High,2
+programming,Other,Loops,5,High,2
+programming,Other,Functions,6,High,2
+programming,Other,Arrays and Collections,7,Medium,3
+programming,Other,Object Oriented Programming,8,Medium,3
+programming,Other,Error Handling,9,Medium,3
+programming,Other,File Handling,10,Medium,3
+programming,Other,Debugging and Testing,11,Medium,3
+programming,Other,Mini Project,12,Medium,3
+web,Frontend Development,HTML Fundamentals,1,High,2
+web,Frontend Development,CSS Fundamentals,2,High,2
+web,Frontend Development,Responsive Web Design,3,High,2
+web,Frontend Development,JavaScript Fundamentals,4,High,2
+web,Frontend Development,DOM Manipulation,5,High,2
+web,Frontend Development,Forms and Validation,6,High,2
+web,Frontend Development,Git and GitHub,7,Medium,3
+web,Frontend Development,Working with APIs,8,Medium,3
+web,Frontend Development,React Fundamentals,9,Medium,3
+web,Frontend Development,React State and Props,10,Medium,3
+web,Frontend Development,React Routing,11,Medium,3
+web,Frontend Development,Website Deployment,12,Medium,3
+web,Frontend Development,Frontend Project,13,Medium,3
+web,Backend Development,Backend Development Fundamentals,1,High,2
+web,Backend Development,JavaScript or Python Basics,2,High,2
+web,Backend Development,Node.js Fundamentals,3,High,2
+web,Backend Development,Express.js,4,High,2
+web,Backend Development,HTTP and REST APIs,5,High,2
+web,Backend Development,Routing and Middleware,6,High,2
+web,Backend Development,SQL and Database Basics,7,Medium,3
+web,Backend Development,Authentication and Authorization,8,Medium,3
+web,Backend Development,Input Validation and Error Handling,9,Medium,3
+web,Backend Development,Backend Security Fundamentals,10,Medium,3
+web,Backend Development,API Testing,11,Medium,3
+web,Backend Development,Backend Deployment,12,Medium,3
+web,Backend Development,Backend Project,13,Medium,3
+web,Full Stack Development,HTML Fundamentals,1,High,2
+web,Full Stack Development,CSS and Responsive Design,2,High,2
+web,Full Stack Development,JavaScript Fundamentals,3,High,2
+web,Full Stack Development,React Fundamentals,4,High,2
+web,Full Stack Development,Node.js Fundamentals,5,High,2
+web,Full Stack Development,Express.js,6,High,2
+web,Full Stack Development,REST API Development,7,Medium,3
+web,Full Stack Development,SQL Database Integration,8,Medium,3
+web,Full Stack Development,Frontend and Backend Integration,9,Medium,3
+web,Full Stack Development,Authentication,10,Medium,3
+web,Full Stack Development,Git and GitHub,11,Medium,3
+web,Full Stack Development,Full Stack Deployment,12,Medium,3
+web,Full Stack Development,Full Stack Project,13,Medium,3
+web,Other,Web Development Fundamentals,1,High,2
+web,Other,HTML and CSS,2,High,2
+web,Other,JavaScript Basics,3,High,2
+web,Other,Responsive Design,4,High,2
+web,Other,Frontend Development,5,High,2
+web,Other,Backend Development Basics,6,High,2
+web,Other,REST APIs,7,Medium,3
+web,Other,Database Fundamentals,8,Medium,3
+web,Other,Git and GitHub,9,Medium,3
+web,Other,Authentication Basics,10,Medium,3
+web,Other,Website Deployment,11,Medium,3
+web,Other,Web Development Project,12,Medium,3
+app,Android,Android Development Fundamentals,1,High,2
+app,Android,Kotlin Fundamentals,2,High,2
+app,Android,Android Studio Setup,3,High,2
+app,Android,Activities and Lifecycle,4,High,2
+app,Android,UI Design with XML or Compose,5,High,2
+app,Android,Navigation and Screen Management,6,High,2
+app,Android,State Management,7,Medium,3
+app,Android,API Integration,8,Medium,3
+app,Android,Local Storage and Room Database,9,Medium,3
+app,Android,App Permissions,10,Medium,3
+app,Android,Testing and Debugging,11,Medium,3
+app,Android,Android App Project,12,Medium,3
+app,iOS,iOS Development Fundamentals,1,High,2
+app,iOS,Swift Fundamentals,2,High,2
+app,iOS,Xcode Basics,3,High,2
+app,iOS,SwiftUI Fundamentals,4,High,2
+app,iOS,Views and Layouts,5,High,2
+app,iOS,Navigation and State,6,High,2
+app,iOS,API Integration,7,Medium,3
+app,iOS,Local Data Storage,8,Medium,3
+app,iOS,App Architecture,9,Medium,3
+app,iOS,Testing and Debugging,10,Medium,3
+app,iOS,App Store Basics,11,Medium,3
+app,iOS,iOS App Project,12,Medium,3
+app,Flutter,Flutter Fundamentals,1,High,2
+app,Flutter,Dart Programming,2,High,2
+app,Flutter,Flutter Widgets,3,High,2
+app,Flutter,Layouts and UI Design,4,High,2
+app,Flutter,Navigation and Routing,5,High,2
+app,Flutter,State Management,6,High,2
+app,Flutter,API Integration,7,Medium,3
+app,Flutter,Local Storage,8,Medium,3
+app,Flutter,Firebase Basics,9,Medium,3
+app,Flutter,Testing and Debugging,10,Medium,3
+app,Flutter,App Deployment,11,Medium,3
+app,Flutter,Flutter Project,12,Medium,3
+app,React Native,React Native Fundamentals,1,High,2
+app,React Native,JavaScript Fundamentals,2,High,2
+app,React Native,Components and Props,3,High,2
+app,React Native,Styling and Layouts,4,High,2
+app,React Native,Navigation,5,High,2
+app,React Native,State Management,6,High,2
+app,React Native,API Integration,7,Medium,3
+app,React Native,Device Features,8,Medium,3
+app,React Native,Local Storage,9,Medium,3
+app,React Native,Testing and Debugging,10,Medium,3
+app,React Native,App Deployment,11,Medium,3
+app,React Native,React Native Project,12,Medium,3
+app,Other,Mobile App Development Fundamentals,1,High,2
+app,Other,Mobile UI Design,2,High,2
+app,Other,Components and Layouts,3,High,2
+app,Other,Navigation,4,High,2
+app,Other,State Management,5,High,2
+app,Other,API Integration,6,High,2
+app,Other,Local Database,7,Medium,3
+app,Other,Authentication,8,Medium,3
+app,Other,Testing and Debugging,9,Medium,3
+app,Other,App Deployment,10,Medium,3
+app,Other,Mobile App Project,11,Medium,3
+dsa,C++,C++ Fundamentals for DSA,1,High,2
+dsa,C++,Time and Space Complexity,2,High,2
+dsa,C++,Arrays,3,High,2
+dsa,C++,Strings,4,High,2
+dsa,C++,Searching and Sorting,5,High,2
+dsa,C++,Hashing,6,High,2
+dsa,C++,Linked Lists,7,Medium,3
+dsa,C++,Stacks and Queues,8,Medium,3
+dsa,C++,Recursion and Backtracking,9,Medium,3
+dsa,C++,Trees and Binary Search Trees,10,Medium,3
+dsa,C++,Graphs,11,Medium,3
+dsa,C++,Greedy Algorithms,12,Medium,3
+dsa,C++,Dynamic Programming,13,Medium,3
+dsa,C++,Problem Solving Practice,14,Medium,3
+dsa,Java,Java Fundamentals for DSA,1,High,2
+dsa,Java,Time and Space Complexity,2,High,2
+dsa,Java,Arrays and Strings,3,High,2
+dsa,Java,Searching and Sorting,4,High,2
+dsa,Java,HashMap and HashSet,5,High,2
+dsa,Java,Linked Lists,6,High,2
+dsa,Java,Stacks and Queues,7,Medium,3
+dsa,Java,Recursion and Backtracking,8,Medium,3
+dsa,Java,Trees and Binary Search Trees,9,Medium,3
+dsa,Java,Graphs,10,Medium,3
+dsa,Java,Greedy Algorithms,11,Medium,3
+dsa,Java,Dynamic Programming,12,Medium,3
+dsa,Java,Problem Solving Practice,13,Medium,3
+dsa,Python,Python Fundamentals for DSA,1,High,2
+dsa,Python,Time and Space Complexity,2,High,2
+dsa,Python,Lists and Strings,3,High,2
+dsa,Python,Searching and Sorting,4,High,2
+dsa,Python,Dictionaries and Sets,5,High,2
+dsa,Python,Linked Lists,6,High,2
+dsa,Python,Stacks and Queues,7,Medium,3
+dsa,Python,Recursion and Backtracking,8,Medium,3
+dsa,Python,Trees and Binary Search Trees,9,Medium,3
+dsa,Python,Graphs,10,Medium,3
+dsa,Python,Greedy Algorithms,11,Medium,3
+dsa,Python,Dynamic Programming,12,Medium,3
+dsa,Python,Problem Solving Practice,13,Medium,3
+dsa,Other,DSA Fundamentals,1,High,2
+dsa,Other,Time and Space Complexity,2,High,2
+dsa,Other,Arrays and Strings,3,High,2
+dsa,Other,Searching and Sorting,4,High,2
+dsa,Other,Hashing,5,High,2
+dsa,Other,Linked Lists,6,High,2
+dsa,Other,Stacks and Queues,7,Medium,3
+dsa,Other,Recursion,8,Medium,3
+dsa,Other,Trees,9,Medium,3
+dsa,Other,Graphs,10,Medium,3
+dsa,Other,Greedy Algorithms,11,Medium,3
+dsa,Other,Dynamic Programming,12,Medium,3
+dsa,Other,Problem Solving Practice,13,Medium,3
+aiml,AI,Introduction to Artificial Intelligence,1,High,2
+aiml,AI,Python for AI,2,High,2
+aiml,AI,Mathematics for AI,3,High,2
+aiml,AI,Problem Solving and Search,4,High,2
+aiml,AI,Knowledge Representation,5,High,2
+aiml,AI,Machine Learning Fundamentals,6,High,2
+aiml,AI,Neural Network Basics,7,Medium,3
+aiml,AI,Natural Language Processing Basics,8,Medium,3
+aiml,AI,Computer Vision Basics,9,Medium,3
+aiml,AI,Large Language Model Fundamentals,10,Medium,3
+aiml,AI,AI API Integration,11,Medium,3
+aiml,AI,AI Project,12,Medium,3
+aiml,ML,Python for Machine Learning,1,High,2
+aiml,ML,NumPy and Pandas,2,High,2
+aiml,ML,Data Cleaning,3,High,2
+aiml,ML,Data Visualization,4,High,2
+aiml,ML,Statistics for Machine Learning,5,High,2
+aiml,ML,Supervised Learning,6,High,2
+aiml,ML,Unsupervised Learning,7,Medium,3
+aiml,ML,Feature Engineering,8,Medium,3
+aiml,ML,Model Training,9,Medium,3
+aiml,ML,Model Evaluation,10,Medium,3
+aiml,ML,Scikit-learn,11,Medium,3
+aiml,ML,Model Deployment,12,Medium,3
+aiml,ML,Machine Learning Project,13,Medium,3
+aiml,Deep Learning,Python Fundamentals,1,High,2
+aiml,Deep Learning,NumPy Fundamentals,2,High,2
+aiml,Deep Learning,Machine Learning Basics,3,High,2
+aiml,Deep Learning,Neural Network Fundamentals,4,High,2
+aiml,Deep Learning,Activation Functions and Backpropagation,5,High,2
+aiml,Deep Learning,TensorFlow or PyTorch,6,High,2
+aiml,Deep Learning,Convolutional Neural Networks,7,Medium,3
+aiml,Deep Learning,Sequence Models,8,Medium,3
+aiml,Deep Learning,Transformer Fundamentals,9,Medium,3
+aiml,Deep Learning,Model Training and Evaluation,10,Medium,3
+aiml,Deep Learning,Deep Learning Project,11,Medium,3
+aiml,Generative AI,Python Fundamentals,1,High,2
+aiml,Generative AI,Machine Learning Basics,2,High,2
+aiml,Generative AI,Neural Network Fundamentals,3,High,2
+aiml,Generative AI,Large Language Models,4,High,2
+aiml,Generative AI,Transformer Architecture,5,High,2
+aiml,Generative AI,Prompt Engineering,6,High,2
+aiml,Generative AI,Embeddings,7,Medium,3
+aiml,Generative AI,Vector Databases,8,Medium,3
+aiml,Generative AI,Retrieval Augmented Generation,9,Medium,3
+aiml,Generative AI,Working with AI APIs,10,Medium,3
+aiml,Generative AI,AI Evaluation and Responsible Use,11,Medium,3
+aiml,Generative AI,Generative AI Project,12,Medium,3
+data,Data Science,Python Fundamentals,1,High,2
+data,Data Science,NumPy,2,High,2
+data,Data Science,Pandas,3,High,2
+data,Data Science,Data Cleaning,4,High,2
+data,Data Science,SQL Fundamentals,5,High,2
+data,Data Science,Statistics and Probability,6,High,2
+data,Data Science,Data Visualization,7,Medium,3
+data,Data Science,Exploratory Data Analysis,8,Medium,3
+data,Data Science,Machine Learning Fundamentals,9,Medium,3
+data,Data Science,Model Evaluation,10,Medium,3
+data,Data Science,Data Science Project,11,Medium,3
+data,Data Analytics,Excel Fundamentals,1,High,2
+data,Data Analytics,Advanced Excel,2,High,2
+data,Data Analytics,SQL Fundamentals,3,High,2
+data,Data Analytics,Data Cleaning,4,High,2
+data,Data Analytics,Descriptive Statistics,5,High,2
+data,Data Analytics,Data Analysis Techniques,6,High,2
+data,Data Analytics,Power BI or Tableau,7,Medium,3
+data,Data Analytics,Dashboard Development,8,Medium,3
+data,Data Analytics,Python for Data Analysis,9,Medium,3
+data,Data Analytics,Business Metrics,10,Medium,3
+data,Data Analytics,Data Analytics Project,11,Medium,3
+data,Data Visualization,Data Visualization Fundamentals,1,High,2
+data,Data Visualization,Charts and Graphs,2,High,2
+data,Data Visualization,Excel Visualization,3,High,2
+data,Data Visualization,Python for Visualization,4,High,2
+data,Data Visualization,Matplotlib Basics,5,High,2
+data,Data Visualization,Interactive Visualizations,6,High,2
+data,Data Visualization,Power BI Fundamentals,7,Medium,3
+data,Data Visualization,Tableau Fundamentals,8,Medium,3
+data,Data Visualization,Dashboard Design,9,Medium,3
+data,Data Visualization,Data Storytelling,10,Medium,3
+data,Data Visualization,Visualization Project,11,Medium,3
+data,Other,Data Fundamentals,1,High,2
+data,Other,Excel Basics,2,High,2
+data,Other,SQL Fundamentals,3,High,2
+data,Other,Python Basics,4,High,2
+data,Other,Data Cleaning,5,High,2
+data,Other,Statistics Basics,6,High,2
+data,Other,Data Analysis,7,Medium,3
+data,Other,Data Visualization,8,Medium,3
+data,Other,Exploratory Data Analysis,9,Medium,3
+data,Other,Dashboard Development,10,Medium,3
+data,Other,Data Project,11,Medium,3
+design,UI Design,UI Design Fundamentals,1,High,2
+design,UI Design,Design Principles,2,High,2
+design,UI Design,Typography,3,High,2
+design,UI Design,Color Theory,4,High,2
+design,UI Design,Spacing and Layout,5,High,2
+design,UI Design,Figma Fundamentals,6,High,2
+design,UI Design,Wireframing,7,Medium,3
+design,UI Design,UI Components,8,Medium,3
+design,UI Design,Responsive UI Design,9,Medium,3
+design,UI Design,Prototyping,10,Medium,3
+design,UI Design,Design Systems,11,Medium,3
+design,UI Design,UI Portfolio Project,12,Medium,3
+design,UX Design,UX Design Fundamentals,1,High,2
+design,UX Design,User Research,2,High,2
+design,UX Design,User Personas,3,High,2
+design,UX Design,User Journey Mapping,4,High,2
+design,UX Design,Information Architecture,5,High,2
+design,UX Design,User Flows,6,High,2
+design,UX Design,Wireframing,7,Medium,3
+design,UX Design,Prototyping,8,Medium,3
+design,UX Design,Usability Testing,9,Medium,3
+design,UX Design,Accessibility Fundamentals,10,Medium,3
+design,UX Design,UX Case Study,11,Medium,3
+design,Logo Design,Logo Design Fundamentals,1,High,2
+design,Logo Design,Brand Identity Basics,2,High,2
+design,Logo Design,Design Research,3,High,2
+design,Logo Design,Typography,4,High,2
+design,Logo Design,Shapes and Composition,5,High,2
+design,Logo Design,Color Theory,6,High,2
+design,Logo Design,Vector Design,7,Medium,3
+design,Logo Design,Illustrator or Inkscape,8,Medium,3
+design,Logo Design,Logo Variations,9,Medium,3
+design,Logo Design,Brand Guidelines,10,Medium,3
+design,Logo Design,Logo Design Project,11,Medium,3
+design,Graphic Design Tools,Graphic Design Fundamentals,1,High,2
+design,Graphic Design Tools,Canva Basics,2,High,2
+design,Graphic Design Tools,Photoshop Basics,3,High,2
+design,Graphic Design Tools,Illustrator Basics,4,High,2
+design,Graphic Design Tools,Typography,5,High,2
+design,Graphic Design Tools,Color Theory,6,High,2
+design,Graphic Design Tools,Layout and Composition,7,Medium,3
+design,Graphic Design Tools,Image Editing,8,Medium,3
+design,Graphic Design Tools,Social Media Design,9,Medium,3
+design,Graphic Design Tools,Exporting Design Files,10,Medium,3
+design,Graphic Design Tools,Graphic Design Portfolio,11,Medium,3
+design,Other,Graphic Design Fundamentals,1,High,2
+design,Other,Design Principles,2,High,2
+design,Other,Typography,3,High,2
+design,Other,Color Theory,4,High,2
+design,Other,Layout and Composition,5,High,2
+design,Other,Canva or Figma,6,High,2
+design,Other,Image Editing,7,Medium,3
+design,Other,Basic Prototyping,8,Medium,3
+design,Other,Design Portfolio,9,Medium,3
+design,Other,Practical Design Project,10,Medium,3
+project,Web Projects,Web Project Planning,1,High,2
+project,Web Projects,HTML Fundamentals,2,High,2
+project,Web Projects,CSS and Responsive Design,3,High,2
+project,Web Projects,JavaScript Fundamentals,4,High,2
+project,Web Projects,Git and GitHub,5,High,2
+project,Web Projects,Frontend Development,6,High,2
+project,Web Projects,API Integration,7,Medium,3
+project,Web Projects,Backend Fundamentals,8,Medium,3
+project,Web Projects,Database Integration,9,Medium,3
+project,Web Projects,Authentication,10,Medium,3
+project,Web Projects,Testing and Debugging,11,Medium,3
+project,Web Projects,Web Project Deployment,12,Medium,3
+project,App Projects,App Project Planning,1,High,2
+project,App Projects,Mobile Development Basics,2,High,2
+project,App Projects,UI Design,3,High,2
+project,App Projects,Navigation and Routing,4,High,2
+project,App Projects,State Management,5,High,2
+project,App Projects,API Integration,6,High,2
+project,App Projects,Local Storage,7,Medium,3
+project,App Projects,Authentication,8,Medium,3
+project,App Projects,Testing and Debugging,9,Medium,3
+project,App Projects,App Deployment,10,Medium,3
+project,App Projects,Mobile App Project,11,Medium,3
+project,Python Projects,Python Fundamentals,1,High,2
+project,Python Projects,Functions and Modules,2,High,2
+project,Python Projects,File Handling,3,High,2
+project,Python Projects,Exception Handling,4,High,2
+project,Python Projects,Working with APIs,5,High,2
+project,Python Projects,Database Integration,6,High,2
+project,Python Projects,GUI or Web Framework Basics,7,Medium,3
+project,Python Projects,Project Structure,8,Medium,3
+project,Python Projects,Testing and Debugging,9,Medium,3
+project,Python Projects,Project Deployment,10,Medium,3
+project,Python Projects,Python Project,11,Medium,3
+project,AI/ML Projects,Python Fundamentals,1,High,2
+project,AI/ML Projects,NumPy and Pandas,2,High,2
+project,AI/ML Projects,Data Collection,3,High,2
+project,AI/ML Projects,Data Cleaning,4,High,2
+project,AI/ML Projects,Data Visualization,5,High,2
+project,AI/ML Projects,Machine Learning Fundamentals,6,High,2
+project,AI/ML Projects,Model Training,7,Medium,3
+project,AI/ML Projects,Model Evaluation,8,Medium,3
+project,AI/ML Projects,Application Integration,9,Medium,3
+project,AI/ML Projects,Model Deployment,10,Medium,3
+project,AI/ML Projects,AI/ML Project,11,Medium,3
+project,Other,Project Idea Selection,1,High,2
+project,Other,Requirement Analysis,2,High,2
+project,Other,Project Planning,3,High,2
+project,Other,Technology Stack Selection,4,High,2
+project,Other,UI Design,5,High,2
+project,Other,Core Functionality Development,6,High,2
+project,Other,Database and Storage,7,Medium,3
+project,Other,Git and GitHub,8,Medium,3
+project,Other,Testing and Debugging,9,Medium,3
+project,Other,Project Deployment,10,Medium,3
+project,Other,Documentation,11,Medium,3
+project,Other,Final Project,12,Medium,3
+cloud,AWS,Cloud Computing Fundamentals,1,High,2
+cloud,AWS,Introduction to AWS,2,High,2
+cloud,AWS,AWS Global Infrastructure,3,High,2
+cloud,AWS,AWS IAM,4,High,2
+cloud,AWS,Amazon EC2,5,High,2
+cloud,AWS,Amazon S3,6,High,2
+cloud,AWS,Amazon VPC,7,Medium,3
+cloud,AWS,AWS Database Services,8,Medium,3
+cloud,AWS,AWS Lambda,9,Medium,3
+cloud,AWS,Cloud Monitoring,10,Medium,3
+cloud,AWS,AWS Security Fundamentals,11,Medium,3
+cloud,AWS,AWS Deployment Project,12,Medium,3
+cloud,Microsoft Azure,Cloud Computing Fundamentals,1,High,2
+cloud,Microsoft Azure,Introduction to Microsoft Azure,2,High,2
+cloud,Microsoft Azure,Azure Global Infrastructure,3,High,2
+cloud,Microsoft Azure,Azure Identity and Access,4,High,2
+cloud,Microsoft Azure,Azure Virtual Machines,5,High,2
+cloud,Microsoft Azure,Azure Storage,6,High,2
+cloud,Microsoft Azure,Azure Virtual Network,7,Medium,3
+cloud,Microsoft Azure,Azure Database Services,8,Medium,3
+cloud,Microsoft Azure,Azure Functions,9,Medium,3
+cloud,Microsoft Azure,Azure Monitoring,10,Medium,3
+cloud,Microsoft Azure,Azure Security Fundamentals,11,Medium,3
+cloud,Microsoft Azure,Azure Deployment Project,12,Medium,3
+cloud,Google Cloud,Cloud Computing Fundamentals,1,High,2
+cloud,Google Cloud,Introduction to Google Cloud,2,High,2
+cloud,Google Cloud,Google Cloud Infrastructure,3,High,2
+cloud,Google Cloud,Identity and Access Management,4,High,2
+cloud,Google Cloud,Compute Engine,5,High,2
+cloud,Google Cloud,Cloud Storage,6,High,2
+cloud,Google Cloud,Virtual Private Cloud,7,Medium,3
+cloud,Google Cloud,Cloud SQL,8,Medium,3
+cloud,Google Cloud,Cloud Functions,9,Medium,3
+cloud,Google Cloud,Cloud Monitoring,10,Medium,3
+cloud,Google Cloud,Cloud Security Fundamentals,11,Medium,3
+cloud,Google Cloud,Google Cloud Project,12,Medium,3
+cloud,Other,Cloud Computing Fundamentals,1,High,2
+cloud,Other,Cloud Service Models,2,High,2
+cloud,Other,Cloud Deployment Models,3,High,2
+cloud,Other,Virtualization Basics,4,High,2
+cloud,Other,Cloud Compute Services,5,High,2
+cloud,Other,Cloud Storage,6,High,2
+cloud,Other,Cloud Networking,7,Medium,3
+cloud,Other,Cloud Databases,8,Medium,3
+cloud,Other,Identity and Access Management,9,Medium,3
+cloud,Other,Cloud Security,10,Medium,3
+cloud,Other,Monitoring and Deployment,11,Medium,3
+cloud,Other,Cloud Project,12,Medium,3
+cyber,Ethical Hacking,Cybersecurity Fundamentals,1,High,2
+cyber,Ethical Hacking,Ethics and Legal Responsibilities,2,High,2
+cyber,Ethical Hacking,Networking Fundamentals,3,High,2
+cyber,Ethical Hacking,Linux Fundamentals,4,High,2
+cyber,Ethical Hacking,Operating System Security,5,High,2
+cyber,Ethical Hacking,Security Assessment Concepts,6,High,2
+cyber,Ethical Hacking,Vulnerability Management,7,Medium,3
+cyber,Ethical Hacking,Web Security Fundamentals,8,Medium,3
+cyber,Ethical Hacking,Safe Security Lab Concepts,9,Medium,3
+cyber,Ethical Hacking,Security Reporting,10,Medium,3
+cyber,Ethical Hacking,Risk Assessment and Remediation,11,Medium,3
+cyber,Ethical Hacking,Cybersecurity Project,12,Medium,3
+cyber,Network Security,Networking Fundamentals,1,High,2
+cyber,Network Security,Network Protocols,2,High,2
+cyber,Network Security,Network Architecture,3,High,2
+cyber,Network Security,Firewalls,4,High,2
+cyber,Network Security,Access Control,5,High,2
+cyber,Network Security,VPN Fundamentals,6,High,2
+cyber,Network Security,Encryption and TLS,7,Medium,3
+cyber,Network Security,IDS and IPS Concepts,8,Medium,3
+cyber,Network Security,Network Monitoring,9,Medium,3
+cyber,Network Security,Security Logging,10,Medium,3
+cyber,Network Security,Secure Network Configuration,11,Medium,3
+cyber,Network Security,Network Security Project,12,Medium,3
+cyber,Application Security,Application Security Fundamentals,1,High,2
+cyber,Application Security,Secure Software Development,2,High,2
+cyber,Application Security,OWASP Top 10 Overview,3,High,2
+cyber,Application Security,Input Validation,4,High,2
+cyber,Application Security,Authentication and Authorization,5,High,2
+cyber,Application Security,Session Security,6,High,2
+cyber,Application Security,Secure API Design,7,Medium,3
+cyber,Application Security,Dependency Management,8,Medium,3
+cyber,Application Security,Secure Code Review,9,Medium,3
+cyber,Application Security,Security Testing in Safe Labs,10,Medium,3
+cyber,Application Security,Vulnerability Remediation,11,Medium,3
+cyber,Application Security,Application Security Project,12,Medium,3
+cyber,Other,Cybersecurity Fundamentals,1,High,2
+cyber,Other,Networking Basics,2,High,2
+cyber,Other,Operating System Basics,3,High,2
+cyber,Other,Access Control,4,High,2
+cyber,Other,Encryption Fundamentals,5,High,2
+cyber,Other,Secure Coding Basics,6,High,2
+cyber,Other,Threat Awareness,7,Medium,3
+cyber,Other,Security Monitoring,8,Medium,3
+cyber,Other,Security Logging,9,Medium,3
+cyber,Other,Incident Response Fundamentals,10,Medium,3
+cyber,Other,Risk Management,11,Medium,3
+cyber,Other,Cybersecurity Project,12,Medium,3
+devops,Docker,Linux and Command Line Basics,1,High,2
+devops,Docker,Git and GitHub,2,High,2
+devops,Docker,Containerization Fundamentals,3,High,2
+devops,Docker,Docker Architecture,4,High,2
+devops,Docker,Docker Images and Containers,5,High,2
+devops,Docker,Dockerfile,6,High,2
+devops,Docker,Docker Compose,7,Medium,3
+devops,Docker,Docker Volumes and Networking,8,Medium,3
+devops,Docker,Container Registry,9,Medium,3
+devops,Docker,Container Security Basics,10,Medium,3
+devops,Docker,CI/CD Integration,11,Medium,3
+devops,Docker,Docker Deployment Project,12,Medium,3
+devops,Kubernetes,Linux Fundamentals,1,High,2
+devops,Kubernetes,Containerization Basics,2,High,2
+devops,Kubernetes,Kubernetes Fundamentals,3,High,2
+devops,Kubernetes,Kubernetes Architecture,4,High,2
+devops,Kubernetes,Pods,5,High,2
+devops,Kubernetes,Deployments,6,High,2
+devops,Kubernetes,Services,7,Medium,3
+devops,Kubernetes,ConfigMaps and Secrets,8,Medium,3
+devops,Kubernetes,Persistent Storage,9,Medium,3
+devops,Kubernetes,Scaling Applications,10,Medium,3
+devops,Kubernetes,Monitoring Basics,11,Medium,3
+devops,Kubernetes,Kubernetes Project,12,Medium,3
+devops,CI/CD,Git and GitHub,1,High,2
+devops,CI/CD,Software Development Lifecycle,2,High,2
+devops,CI/CD,Build Automation,3,High,2
+devops,CI/CD,Automated Testing,4,High,2
+devops,CI/CD,CI/CD Fundamentals,5,High,2
+devops,CI/CD,GitHub Actions,6,High,2
+devops,CI/CD,Jenkins Fundamentals,7,Medium,3
+devops,CI/CD,Pipeline Configuration,8,Medium,3
+devops,CI/CD,Secrets and Environment Variables,9,Medium,3
+devops,CI/CD,Deployment Strategies,10,Medium,3
+devops,CI/CD,Pipeline Monitoring,11,Medium,3
+devops,CI/CD,CI/CD Project,12,Medium,3
+devops,Linux,Linux Fundamentals,1,High,2
+devops,Linux,Linux Distributions,2,High,2
+devops,Linux,File System Structure,3,High,2
+devops,Linux,Basic Linux Commands,4,High,2
+devops,Linux,Users and Permissions,5,High,2
+devops,Linux,Process Management,6,High,2
+devops,Linux,Services and Package Management,7,Medium,3
+devops,Linux,Shell Scripting,8,Medium,3
+devops,Linux,Networking Basics,9,Medium,3
+devops,Linux,System Monitoring,10,Medium,3
+devops,Linux,Linux Administration,11,Medium,3
+devops,Linux,Linux Mini Project,12,Medium,3
+devops,Other,DevOps Fundamentals,1,High,2
+devops,Other,Linux and Command Line,2,High,2
+devops,Other,Git and GitHub,3,High,2
+devops,Other,Scripting Basics,4,High,2
+devops,Other,CI/CD Fundamentals,5,High,2
+devops,Other,Containerization Basics,6,High,2
+devops,Other,Cloud Computing Basics,7,Medium,3
+devops,Other,Deployment Fundamentals,8,Medium,3
+devops,Other,Monitoring and Logging,9,Medium,3
+devops,Other,Automation Basics,10,Medium,3
+devops,Other,DevOps Project,11,Medium,3

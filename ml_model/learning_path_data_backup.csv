@@ -1,0 +1,766 @@
+goal,sub_goal,topic,level,sequence,priority,estimated_days
+programming,Python,Programming Fundamentals,beginner,1,High,2
+programming,Python,Variables and Data Types,beginner,2,High,2
+programming,Python,Operators,beginner,3,High,2
+programming,Python,Conditional Statements,beginner,4,High,3
+programming,Python,Loops,beginner,5,High,3
+programming,Python,Strings,beginner,6,Medium,2
+programming,Python,Lists and Tuples,beginner,7,High,3
+programming,Python,Dictionaries and Sets,beginner,8,Medium,2
+programming,Python,Functions,beginner,9,High,3
+programming,Python,Modules,beginner,10,Medium,2
+programming,Python,File Handling,beginner,11,Medium,2
+programming,Python,Exception Handling,beginner,12,Medium,2
+programming,Python,OOP Concepts,beginner,13,High,3
+programming,Python,Practice Problems,beginner,14,High,2
+programming,Python,Mini Project,beginner,15,High,2
+programming,C++,Introduction to C++,beginner,1,High,2
+programming,C++,Variables and Data Types,beginner,2,High,2
+programming,C++,Input and Output,beginner,3,High,2
+programming,C++,Operators,beginner,4,High,2
+programming,C++,Conditional Statements,beginner,5,High,3
+programming,C++,Loops,beginner,6,High,3
+programming,C++,Functions,beginner,7,High,3
+programming,C++,Arrays and Strings,beginner,8,High,3 
+programming,C++,Pointers,beginner,9,Medium,3
+programming,C++,Structures,beginner,10,Medium,2
+programming,C++,Object Oriented Programming,beginner,11,High,4
+programming,C++,File Handling,beginner,12,Medium,2
+programming,C++,STL Basics,beginner,13,Medium,3
+programming,C++,Practice Problems,beginner,14,High,3
+programming,C++,Mini Project,beginner,15,High,2
+programming,Java,Introduction to Java,beginner,1,High,2
+programming,Java,Variables and Data Types,beginner,2,High,2
+programming,Java,Operators,beginner,3,High,2
+programming,Java,Conditional Statements,beginner,4,High,2
+programming,Java,Loops,beginner,5,High,3
+programming,Java,Methods,beginner,6,High,3
+programming,Java,Arrays and Strings,beginner,7,High,3
+programming,Java,Classes and Objects,beginner,8,High,3
+programming,Java,Inheritance,beginner,9,High,3
+programming,Java,Polymorphism,beginner,10,High,3
+programming,Java,Abstraction and Encapsulation,beginner,11,High,3
+programming,Java,Exception Handling,beginner,12,Medium,2
+programming,Java,Collections Framework,beginner,13,Medium,3
+programming,Java,Practice Problems,beginner,14,High,3
+programming,Java,Mini Project,beginner,15,High,2
+programming,JavaScript,Introduction to JavaScript,beginner,1,High,2
+programming,JavaScript,Variables and Data Types,beginner,2,High,2
+programming,JavaScript,Operators,beginner,3,High,2
+programming,JavaScript,Conditional Statements,beginner,4,High,2
+programming,JavaScript,Loops,beginner,5,High,2
+programming,JavaScript,Functions,beginner,6,High,3
+programming,JavaScript,Arrays,beginner,7,High,3
+programming,JavaScript,Objects,beginner,8,High,3
+programming,JavaScript,DOM Manipulation,beginner,9,High,3
+programming,JavaScript,Events,beginner,10,High,2
+programming,JavaScript,ES6 Features,beginner,11,Medium,3
+programming,JavaScript,Asynchronous JavaScript,beginner,12,Medium,3
+programming,JavaScript,API Basics,beginner,13,Medium,2
+programming,JavaScript,Practice Problems,beginner,14,High,3
+programming,JavaScript,Mini Project,beginner,15,High,3
+web,Frontend Development,HTML Basics,beginner,1,High,2
+web,Frontend Development,HTML Forms and Tables,beginner,2,High,2
+web,Frontend Development,CSS Basics,beginner,3,High,3
+web,Frontend Development,Selectors and Box Model,beginner,4,High,3
+web,Frontend Development,Flexbox and Grid,beginner,5,High,3
+web,Frontend Development,Responsive Web Design,beginner,6,High,3
+web,Frontend Development,JavaScript Basics,beginner,7,High,4
+web,Frontend Development,DOM Manipulation,beginner,8,High,3
+web,Frontend Development,Events,beginner,9,High,2
+web,Frontend Development,Git and GitHub,beginner,10,Medium,2
+web,Frontend Development,API Basics,beginner,11,Medium,2
+web,Frontend Development,Frontend Framework Basics,beginner,12,Medium,4
+web,Frontend Development,Practice Tasks,beginner,13,High,3
+web,Frontend Development,Portfolio Website,beginner,14,High,3
+web,Frontend Development,Final Project,beginner,15,High,4
+web,Backend Development,Introduction to Backend Development,beginner,1,High,2
+web,Backend Development,Python Basics,beginner,2,High,3
+web,Backend Development,Functions and Modules,beginner,3,High,2
+web,Backend Development,Flask Framework,beginner,4,High,3
+web,Backend Development,Routing and HTTP Methods,beginner,5,High,2
+web,Backend Development,REST API Basics,beginner,6,High,3
+web,Backend Development,Database Fundamentals,beginner,7,High,2
+web,Backend Development,SQL Queries,beginner,8,High,3
+web,Backend Development,MySQL Integration,beginner,9,High,3
+web,Backend Development,CRUD Operations,beginner,10,High,3
+web,Backend Development,User Authentication Basics,beginner,11,Medium,3
+web,Backend Development,API Testing,beginner,12,Medium,2
+web,Backend Development,Git and GitHub,beginner,13,Medium,2
+web,Backend Development,Backend Practice Tasks,beginner,14,High,3
+web,Backend Development,Backend Mini Project,beginner,15,High,4
+web,Full Stack Development,HTML Fundamentals,beginner,1,High,2
+web,Full Stack Development,CSS Fundamentals,beginner,2,High,3
+web,Full Stack Development,JavaScript Fundamentals,beginner,3,High,4
+web,Full Stack Development,Responsive Web Design,beginner,4,High,3
+web,Full Stack Development,DOM Manipulation,beginner,5,High,3
+web,Full Stack Development,Frontend Framework Basics,beginner,6,Medium,4
+web,Full Stack Development,Python Basics,beginner,7,High,3
+web,Full Stack Development,Flask Framework,beginner,8,High,3
+web,Full Stack Development,REST API Development,beginner,9,High,3
+web,Full Stack Development,Database Fundamentals,beginner,10,High,2
+web,Full Stack Development,MySQL and CRUD Operations,beginner,11,High,4
+web,Full Stack Development,Frontend Backend Integration,beginner,12,High,3
+web,Full Stack Development,Git and GitHub,beginner,13,Medium,2
+web,Full Stack Development,Full Stack Practice Tasks,beginner,14,High,3
+web,Full Stack Development,Full Stack Final Project,beginner,15,High,5
+dsa,C++,Introduction to DSA,beginner,1,High,2
+dsa,C++,Time and Space Complexity,beginner,2,High,3
+dsa,C++,Arrays,beginner,3,High,3
+dsa,C++,Strings,beginner,4,High,2
+dsa,C++,Searching Algorithms,beginner,5,High,3
+dsa,C++,Sorting Algorithms,beginner,6,High,3
+dsa,C++,Recursion,beginner,7,High,3
+dsa,C++,Linked Lists,beginner,8,High,4
+dsa,C++,Stacks,beginner,9,High,2
+dsa,C++,Queues,beginner,10,High,2
+dsa,C++,Trees and Binary Trees,beginner,11,High,4
+dsa,C++,Binary Search Trees,beginner,12,Medium,3
+dsa,C++,Graphs,beginner,13,Medium,4
+dsa,C++,Greedy and Dynamic Programming,beginner,14,Medium,5
+dsa,C++,DSA Practice Problems,beginner,15,High,5
+app,Android,Introduction to App Development,beginner,1,High,2
+app,Android,Introduction to Android,beginner,2,High,2
+app,Android,Kotlin Programming Basics,beginner,3,High,4
+app,Android,Variables and Data Types,beginner,4,High,2
+app,Android,Conditional Statements and Loops,beginner,5,High,3
+app,Android,Functions,beginner,6,High,2
+app,Android,Object Oriented Programming,beginner,7,High,4
+app,Android,Android Studio Setup,beginner,8,High,1
+app,Android,Activities and Intents,beginner,9,High,3
+app,Android,Layouts and UI Design,beginner,10,High,4
+app,Android,User Input and Events,beginner,11,Medium,2
+app,Android,Data Storage Basics,beginner,12,Medium,3
+app,Android,API Integration Basics,beginner,13,Medium,3
+app,Android,Practice Tasks,beginner,14,High,3
+app,Android,Build a Mini Android App,beginner,15,High,5
+app,Flutter,Introduction to Flutter,beginner,1,High,2
+app,Flutter,Dart Programming Basics,beginner,2,High,4
+app,Flutter,Variables and Data Types,beginner,3,High,2
+app,Flutter,Operators and Expressions,beginner,4,High,2
+app,Flutter,Conditional Statements and Loops,beginner,5,High,3
+app,Flutter,Functions,beginner,6,High,2
+app,Flutter,Object Oriented Programming,beginner,7,High,4
+app,Flutter,Flutter Installation and Setup,beginner,8,High,2
+app,Flutter,Widgets and Layouts,beginner,9,High,4
+app,Flutter,Navigation and Routing,beginner,10,High,3
+app,Flutter,State Management Basics,beginner,11,Medium,4
+app,Flutter,Forms and User Input,beginner,12,Medium,2
+app,Flutter,API Integration,beginner,13,Medium,3
+app,Flutter,Practice Tasks,beginner,14,High,3
+app,Flutter,Build a Flutter App,beginner,15,High,5
+app,iOS,Introduction to iOS Development,beginner,1,High,2
+app,iOS,Swift Programming Basics,beginner,2,High,4
+app,iOS,Variables and Data Types,beginner,3,High,2
+app,iOS,Operators and Expressions,beginner,4,High,2
+app,iOS,Conditional Statements and Loops,beginner,5,High,3
+app,iOS,Functions,beginner,6,High,2
+app,iOS,Object Oriented Programming,beginner,7,High,4
+app,iOS,Xcode Installation and Setup,beginner,8,High,2
+app,iOS,SwiftUI Basics,beginner,9,High,4
+app,iOS,Views and Layouts,beginner,10,High,3
+app,iOS,Navigation and Routing,beginner,11,Medium,3
+app,iOS,User Input and Forms,beginner,12,Medium,2
+app,iOS,Data Storage and API Basics,beginner,13,Medium,4
+app,iOS,Practice Tasks,beginner,14,High,3
+app,iOS,Build a Mini iOS App,beginner,15,High,5
+app,React Native,Introduction to React Native,beginner,1,High,2
+app,React Native,JavaScript Fundamentals,beginner,2,High,4
+app,React Native,ES6 Features,beginner,3,High,2
+app,React Native,React Basics,beginner,4,High,3
+app,React Native,Components and Props,beginner,5,High,3
+app,React Native,State and Hooks,beginner,6,High,4
+app,React Native,React Native Installation and Setup,beginner,7,High,2
+app,React Native,Core Components,beginner,8,High,3
+app,React Native,Styling and Layouts,beginner,9,High,3
+app,React Native,Navigation and Routing,beginner,10,High,3
+app,React Native,User Input and Forms,beginner,11,Medium,2
+app,React Native,API Integration,beginner,12,Medium,3
+app,React Native,Local Data Storage,beginner,13,Medium,3
+app,React Native,Practice Tasks,beginner,14,High,3
+app,React Native,Build a Mini Mobile App,beginner,15,High,5
+aiml,ML,Introduction to Machine Learning,beginner,1,High,2
+aiml,ML,Python for Machine Learning,beginner,2,High,4
+aiml,ML,NumPy Basics,beginner,3,High,2
+aiml,ML,Pandas Basics,beginner,4,High,3
+aiml,ML,Data Cleaning and Preprocessing,beginner,5,High,3
+aiml,ML,Data Visualization,beginner,6,High,3
+aiml,ML,Statistics Fundamentals,beginner,7,High,4
+aiml,ML,Linear Algebra Basics,beginner,8,Medium,4
+aiml,ML,Supervised Learning,beginner,9,High,4
+aiml,ML,Unsupervised Learning,beginner,10,High,3
+aiml,ML,Model Training and Testing,beginner,11,High,3
+aiml,ML,Model Evaluation Metrics,beginner,12,Medium,3
+aiml,ML,Scikit-learn Basics,beginner,13,High,3
+aiml,ML,Practice ML Projects,beginner,14,High,4
+aiml,ML,Build a Mini ML Project,beginner,15,High,5
+aiml,AI,Introduction to Artificial Intelligence,beginner,1,High,2
+aiml,AI,Python Programming for AI,beginner,2,High,3
+aiml,AI,AI Fundamentals,beginner,3,High,2
+aiml,AI,Search Algorithms,beginner,4,High,3
+aiml,AI,Problem Solving Techniques,beginner,5,High,3
+aiml,AI,Knowledge Representation,beginner,6,Medium,3
+aiml,AI,Machine Learning Basics,beginner,7,High,4
+aiml,AI,Neural Networks Basics,beginner,8,High,4
+aiml,AI,Natural Language Processing Basics,beginner,9,Medium,4
+aiml,AI,Computer Vision Basics,beginner,10,Medium,4
+aiml,AI,AI Tools and Libraries,beginner,11,High,2
+aiml,AI,Working with AI APIs,beginner,12,Medium,3
+aiml,AI,AI Applications and Ethics,beginner,13,Medium,2
+aiml,AI,Practice AI Tasks,beginner,14,High,3
+aiml,AI,Build a Mini AI Project,beginner,15,High,5
+aiml,Deep Learning,Introduction to Deep Learning,beginner,1,High,2
+aiml,Deep Learning,Python for Deep Learning,beginner,2,High,3
+aiml,Deep Learning,NumPy and Pandas Revision,beginner,3,High,2
+aiml,Deep Learning,Linear Algebra Basics,beginner,4,High,4
+aiml,Deep Learning,Neural Networks Fundamentals,beginner,5,High,4
+aiml,Deep Learning,Perceptrons and Activation Functions,beginner,6,High,3
+aiml,Deep Learning,Forward and Backpropagation,beginner,7,High,4
+aiml,Deep Learning,Loss Functions and Optimizers,beginner,8,High,3
+aiml,Deep Learning,TensorFlow Basics,beginner,9,High,4
+aiml,Deep Learning,PyTorch Basics,beginner,10,Medium,4
+aiml,Deep Learning,Convolutional Neural Networks,beginner,11,High,4
+aiml,Deep Learning,Recurrent Neural Networks,beginner,12,Medium,4
+aiml,Deep Learning,Model Training and Evaluation,beginner,13,High,3
+aiml,Deep Learning,Practice Deep Learning Tasks,beginner,14,High,3
+aiml,Deep Learning,Build a Mini Deep Learning Project,beginner,15,High,5
+aiml,Generative AI,Introduction to Generative AI,beginner,1,High,2
+aiml,Generative AI,Python Basics for Generative AI,beginner,2,High,3
+aiml,Generative AI,Introduction to Neural Networks,beginner,3,High,3
+aiml,Generative AI,Understanding Large Language Models,beginner,4,High,4
+aiml,Generative AI,Transformer Architecture Basics,beginner,5,High,4
+aiml,Generative AI,Prompt Engineering Basics,beginner,6,High,2
+aiml,Generative AI,Working with AI APIs,beginner,7,High,3
+aiml,Generative AI,ChatGPT API Integration,beginner,8,High,3
+aiml,Generative AI,Text Generation and Summarization,beginner,9,Medium,3
+aiml,Generative AI,Image Generation Basics,beginner,10,Medium,3
+aiml,Generative AI,Embeddings and Vector Databases,beginner,11,Medium,4
+aiml,Generative AI,Introduction to RAG,beginner,12,Medium,4
+aiml,Generative AI,AI Application Development,beginner,13,High,3
+aiml,Generative AI,Practice Generative AI Tasks,beginner,14,High,3
+aiml,Generative AI,Build a Mini Generative AI Project,beginner,15,High,5
+data,Data Science,Introduction to Data Science,beginner,1,High,2
+data,Data Science,Python for Data Science,beginner,2,High,3
+data,Data Science,NumPy Basics,beginner,3,High,2
+data,Data Science,Pandas Basics,beginner,4,High,3
+data,Data Science,Data Cleaning,beginner,5,High,3
+data,Data Science,Data Preprocessing,beginner,6,High,3
+data,Data Science,Exploratory Data Analysis,beginner,7,High,4
+data,Data Science,Data Visualization,beginner,8,High,3
+data,Data Science,Matplotlib Basics,beginner,9,Medium,2
+data,Data Science,Statistics for Data Science,beginner,10,High,4
+data,Data Science,Probability Basics,beginner,11,Medium,3
+data,Data Science,SQL for Data Science,beginner,12,High,3
+data,Data Science,Introduction to Machine Learning,beginner,13,High,4
+data,Data Science,Data Analysis Practice,beginner,14,High,3
+data,Data Science,Build a Data Science Mini Project,beginner,15,High,5
+design,UI Design,Introduction to UI Design,beginner,1,High,2
+design,UI Design,Design Principles,beginner,2,High,3
+design,UI Design,Color Theory,beginner,3,High,2
+design,UI Design,Typography Basics,beginner,4,High,2
+design,UI Design,Layout and Spacing,beginner,5,High,3
+design,UI Design,Wireframing Basics,beginner,6,High,3
+design,UI Design,Introduction to Figma,beginner,7,High,3
+design,UI Design,Working with Figma Components,beginner,8,Medium,3
+design,UI Design,Responsive Design Basics,beginner,9,High,3
+design,UI Design,UI Design Patterns,beginner,10,Medium,3
+design,UI Design,Creating App Screens,beginner,11,High,3
+design,UI Design,Creating Website Layouts,beginner,12,High,4
+design,UI Design,Prototyping in Figma,beginner,13,Medium,3
+design,UI Design,UI Design Practice,beginner,14,High,3
+design,UI Design,Build a Mini UI Design Project,beginner,15,High,5
+design,UX Design,Introduction to UX Design,beginner,1,High,2
+design,UX Design,Understanding User Experience,beginner,2,High,2
+design,UX Design,User Research Basics,beginner,3,High,3
+design,UX Design,User Personas,beginner,4,High,2
+design,UX Design,User Journey Mapping,beginner,5,High,3
+design,UX Design,Information Architecture,beginner,6,High,3
+design,UX Design,User Flows,beginner,7,High,2
+design,UX Design,Wireframing,beginner,8,High,3
+design,UX Design,Usability Principles,beginner,9,High,3
+design,UX Design,Usability Testing,beginner,10,High,3
+design,UX Design,Accessibility Basics,beginner,11,Medium,3
+design,UX Design,UX Research Methods,beginner,12,Medium,3
+design,UX Design,Introduction to Prototyping,beginner,13,High,3
+design,UX Design,UX Design Practice,beginner,14,High,3
+design,UX Design,Build a Mini UX Case Study,beginner,15,High,5
+design,Logo Design,Introduction to Logo Design,beginner,1,High,2
+design,Logo Design,Principles of Logo Design,beginner,2,High,3
+design,Logo Design,Types of Logos,beginner,3,High,2
+design,Logo Design,Color Psychology,beginner,4,High,2
+design,Logo Design,Typography for Logos,beginner,5,High,3
+design,Logo Design,Shape and Symbol Design,beginner,6,High,3
+design,Logo Design,Introduction to Vector Graphics,beginner,7,High,3
+design,Logo Design,Adobe Illustrator Basics,beginner,8,High,4
+design,Logo Design,Inkscape Basics,beginner,9,Medium,3
+design,Logo Design,Sketching Logo Ideas,beginner,10,High,3
+design,Logo Design,Creating Logo Concepts,beginner,11,High,3
+design,Logo Design,Logo Design Variations,beginner,12,Medium,3
+design,Logo Design,Logo Presentation Basics,beginner,13,Medium,2
+design,Logo Design,Logo Design Practice,beginner,14,High,3
+design,Logo Design,Build a Logo Design Project,beginner,15,High,5
+design,Graphic Design Tools,Introduction to Graphic Design Tools,beginner,1,High,2
+design,Graphic Design Tools,Canva Basics,beginner,2,High,2
+design,Graphic Design Tools,Adobe Photoshop Basics,beginner,3,High,4
+design,Graphic Design Tools,Adobe Illustrator Basics,beginner,4,High,4
+design,Graphic Design Tools,Figma Basics,beginner,5,High,3
+design,Graphic Design Tools,Image Editing Techniques,beginner,6,High,3
+design,Graphic Design Tools,Photo Manipulation Basics,beginner,7,Medium,3
+design,Graphic Design Tools,Typography Tools,beginner,8,High,2
+design,Graphic Design Tools,Color Palette Creation,beginner,9,High,2
+design,Graphic Design Tools,Social Media Design,beginner,10,High,3
+design,Graphic Design Tools,Poster Design,beginner,11,High,3
+design,Graphic Design Tools,Banner Design,beginner,12,Medium,3
+design,Graphic Design Tools,Presentation Design,beginner,13,Medium,3
+design,Graphic Design Tools,Graphic Design Practice,beginner,14,High,3
+design,Graphic Design Tools,Build a Graphic Design Portfolio,beginner,15,High,5
+project,Web Projects,Introduction to Web Projects,beginner,1,High,2
+project,Web Projects,HTML Project Structure,beginner,2,High,2
+project,Web Projects,Build a Personal Portfolio,beginner,3,High,4
+project,Web Projects,Create a Landing Page,beginner,4,High,3
+project,Web Projects,Build a Calculator,beginner,5,High,3
+project,Web Projects,Create a To-Do List App,beginner,6,High,4
+project,Web Projects,JavaScript DOM Manipulation,beginner,7,High,3
+project,Web Projects,Form Validation Project,beginner,8,Medium,3
+project,Web Projects,Weather App Using API,beginner,9,High,4
+project,Web Projects,Responsive Website Design,beginner,10,High,3
+project,Web Projects,Introduction to Backend Integration,beginner,11,Medium,3
+project,Web Projects,Connect Website with Database,beginner,12,High,4
+project,Web Projects,Website Testing and Debugging,beginner,13,Medium,3
+project,Web Projects,Deploy a Website,beginner,14,High,2
+project,Web Projects,Build a Complete Web Project,beginner,15,High,5
+project,App Projects,Introduction to App Development Projects,beginner,1,High,2
+project,App Projects,Mobile App Development Basics,beginner,2,High,3
+project,App Projects,UI Design for Mobile Apps,beginner,3,High,3
+project,App Projects,Create Your First Mobile App,beginner,4,High,4
+project,App Projects,Working with App Screens,beginner,5,High,3
+project,App Projects,Navigation Between Screens,beginner,6,High,3
+project,App Projects,Handling User Input,beginner,7,High,3
+project,App Projects,App State Management Basics,beginner,8,Medium,4
+project,App Projects,Working with APIs,beginner,9,High,4
+project,App Projects,Local Data Storage,beginner,10,High,3
+project,App Projects,App Testing and Debugging,beginner,11,High,3
+project,App Projects,App Icons and Splash Screens,beginner,12,Medium,2
+project,App Projects,App Performance Basics,beginner,13,Medium,3
+project,App Projects,Build a Mini Mobile App,beginner,14,High,4
+project,App Projects,Complete and Present Your App,beginner,15,High,5
+project,Python Projects,Introduction to Python Projects,beginner,1,High,2
+project,Python Projects,Python Programming Revision,beginner,2,High,3
+project,Python Projects,Working with Python Modules,beginner,3,High,2
+project,Python Projects,File Handling in Python,beginner,4,High,3
+project,Python Projects,Exception Handling,beginner,5,High,2
+project,Python Projects,Build a Number Guessing Game,beginner,6,High,2
+project,Python Projects,Build a Calculator Using Python,beginner,7,High,2
+project,Python Projects,Working with CSV Files,beginner,8,Medium,3
+project,Python Projects,Introduction to APIs in Python,beginner,9,High,3
+project,Python Projects,Build a Weather App,beginner,10,High,3
+project,Python Projects,Introduction to Flask,beginner,11,High,4
+project,Python Projects,Build a Simple Flask Website,beginner,12,High,4
+project,Python Projects,Database Connectivity with Python,beginner,13,Medium,3
+project,Python Projects,Python Project Testing,beginner,14,Medium,2
+project,Python Projects,Build a Complete Python Project,beginner,15,High,5
+project,AI/ML Projects,Introduction to AI ML Projects,beginner,1,High,2
+project,AI/ML Projects,Python for AI ML Projects,beginner,2,High,3
+project,AI/ML Projects,NumPy and Pandas Basics,beginner,3,High,3
+project,AI/ML Projects,Data Cleaning and Preparation,beginner,4,High,3
+project,AI/ML Projects,Data Visualization,beginner,5,Medium,3
+project,AI/ML Projects,Introduction to Machine Learning,beginner,6,High,4
+project,AI/ML Projects,Supervised Learning Basics,beginner,7,High,4
+project,AI/ML Projects,Unsupervised Learning Basics,beginner,8,Medium,3
+project,AI/ML Projects,Model Training Basics,beginner,9,High,4
+project,AI/ML Projects,Model Evaluation Basics,beginner,10,High,3
+project,AI/ML Projects,Build a Prediction Model,beginner,11,High,4
+project,AI/ML Projects,Introduction to Flask for ML,beginner,12,Medium,3
+project,AI/ML Projects,Deploy a Machine Learning Model,beginner,13,High,4
+project,AI/ML Projects,AI ML Project Testing,beginner,14,Medium,3
+project,AI/ML Projects,Build a Complete AI ML Project,beginner,15,High,5
+project,Other,Introduction to Project Development,beginner,1,High,2
+project,Other,Identify a Project Idea,beginner,2,High,2
+project,Other,Define Project Requirements,beginner,3,High,2
+project,Other,Choose Technology Stack,beginner,4,High,2
+project,Other,Project Planning and Design,beginner,5,High,3
+project,Other,Understand Basic Concepts,beginner,6,High,3
+project,Other,Create Project Structure,beginner,7,High,2
+project,Other,Develop Core Features,beginner,8,High,4
+project,Other,Implement User Interface,beginner,9,Medium,3
+project,Other,Connect Required Components,beginner,10,High,3
+project,Other,Testing and Debugging,beginner,11,High,3
+project,Other,Improve Project Performance,beginner,12,Medium,2
+project,Other,Prepare Project Documentation,beginner,13,High,2
+project,Other,Deploy or Present Project,beginner,14,High,2
+project,Other,Complete and Review Final Project,beginner,15,High,3
+cloud,AWS,Introduction to Cloud Computing,beginner,1,High,2
+cloud,AWS,Introduction to AWS,beginner,2,High,2
+cloud,AWS,AWS Global Infrastructure,beginner,3,High,2
+cloud,AWS,Create an AWS Account,beginner,4,High,2
+cloud,AWS,Introduction to EC2,beginner,5,High,3
+cloud,AWS,Introduction to S3,beginner,6,High,3
+cloud,AWS,Introduction to IAM,beginner,7,High,3
+cloud,AWS,Amazon VPC Basics,beginner,8,Medium,3
+cloud,AWS,AWS Database Services,beginner,9,High,3
+cloud,AWS,Introduction to AWS Lambda,beginner,10,Medium,3
+cloud,AWS,Cloud Security Basics,beginner,11,High,3
+cloud,AWS,AWS Monitoring Basics,beginner,12,Medium,2
+cloud,AWS,Deploy a Simple Application on AWS,beginner,13,High,4
+cloud,AWS,AWS Hands-on Practice,beginner,14,High,3
+cloud,AWS,Build a Mini Cloud Project,beginner,15,High,5
+cloud,Microsoft Azure,Introduction to Cloud Computing,beginner,1,High,2
+cloud,Microsoft Azure,Introduction to Microsoft Azure,beginner,2,High,2
+cloud,Microsoft Azure,Azure Global Infrastructure,beginner,3,High,2
+cloud,Microsoft Azure,Create an Azure Account,beginner,4,High,2
+cloud,Microsoft Azure,Azure Virtual Machines,beginner,5,High,3
+cloud,Microsoft Azure,Azure Blob Storage,beginner,6,High,3
+cloud,Microsoft Azure,Azure Active Directory Basics,beginner,7,High,3
+cloud,Microsoft Azure,Azure Virtual Network Basics,beginner,8,Medium,3
+cloud,Microsoft Azure,Azure Database Services,beginner,9,High,3
+cloud,Microsoft Azure,Azure Functions Basics,beginner,10,Medium,3
+cloud,Microsoft Azure,Cloud Security Basics,beginner,11,High,3
+cloud,Microsoft Azure,Azure Monitoring Basics,beginner,12,Medium,2
+cloud,Microsoft Azure,Deploy an Application on Azure,beginner,13,High,4
+cloud,Microsoft Azure,Azure Hands-on Practice,beginner,14,High,3
+cloud,Microsoft Azure,Build a Mini Azure Project,beginner,15,High,5
+cloud,Google Cloud,Introduction to Cloud Computing,beginner,1,High,2
+cloud,Google Cloud,Introduction to Google Cloud,beginner,2,High,2
+cloud,Google Cloud,Google Cloud Global Infrastructure,beginner,3,High,2
+cloud,Google Cloud,Create a Google Cloud Account,beginner,4,High,2
+cloud,Google Cloud,Compute Engine Basics,beginner,5,High,3
+cloud,Google Cloud,Cloud Storage Basics,beginner,6,High,3
+cloud,Google Cloud,Identity and Access Management,beginner,7,High,3
+cloud,Google Cloud,Virtual Private Cloud Basics,beginner,8,Medium,3
+cloud,Google Cloud,Google Cloud Database Services,beginner,9,High,3
+cloud,Google Cloud,Cloud Functions Basics,beginner,10,Medium,3
+cloud,Google Cloud,Cloud Security Basics,beginner,11,High,3
+cloud,Google Cloud,Cloud Monitoring Basics,beginner,12,Medium,2
+cloud,Google Cloud,Deploy an Application on Google Cloud,beginner,13,High,4
+cloud,Google Cloud,Google Cloud Hands-on Practice,beginner,14,High,3
+cloud,Google Cloud,Build a Mini Google Cloud Project,beginner,15,High,5
+cyber,Ethical Hacking,Introduction to Cyber Security,beginner,1,High,2
+cyber,Ethical Hacking,Types of Cyber Attacks,beginner,2,High,2
+cyber,Ethical Hacking,Networking Fundamentals,beginner,3,High,3
+cyber,Ethical Hacking,Linux Basics,beginner,4,High,3
+cyber,Ethical Hacking,Web Security Fundamentals,beginner,5,High,3
+cyber,Ethical Hacking,Authentication and Authorization,beginner,6,High,2
+cyber,Ethical Hacking,Security Tools Overview,beginner,7,Medium,2
+cyber,Ethical Hacking,Introduction to Vulnerability Assessment,beginner,8,High,3
+cyber,Ethical Hacking,Password Security Concepts,beginner,9,High,2
+cyber,Ethical Hacking,Network Security Basics,beginner,10,High,3
+cyber,Ethical Hacking,Web Application Security Basics,beginner,11,High,3
+cyber,Ethical Hacking,Security Testing Ethics and Laws,beginner,12,High,2
+cyber,Ethical Hacking,Introduction to Security Reports,beginner,13,Medium,2
+cyber,Ethical Hacking,Practice in Legal Training Labs,beginner,14,High,4
+cyber,Ethical Hacking,Build a Cyber Security Mini Project,beginner,15,High,5
+cyber,Network Security,Introduction to Network Security,beginner,1,High,2
+cyber,Network Security,Computer Networking Basics,beginner,2,High,3
+cyber,Network Security,OSI and TCP IP Models,beginner,3,High,3
+cyber,Network Security,IP Addressing and Subnetting,beginner,4,High,3
+cyber,Network Security,Network Devices and Their Roles,beginner,5,High,2
+cyber,Network Security,Common Network Protocols,beginner,6,High,3
+cyber,Network Security,Firewalls and Their Types,beginner,7,High,3
+cyber,Network Security,VPN Fundamentals,beginner,8,Medium,2
+cyber,Network Security,Wireless Network Security,beginner,9,High,3
+cyber,Network Security,Network Access Control,beginner,10,Medium,2
+cyber,Network Security,Intrusion Detection Basics,beginner,11,High,3
+cyber,Network Security,Network Monitoring Concepts,beginner,12,Medium,2
+cyber,Network Security,Network Security Best Practices,beginner,13,High,2
+cyber,Network Security,Network Security Case Studies,beginner,14,Medium,3
+cyber,Network Security,Build a Network Security Mini Project,beginner,15,High,5
+cyber,Application Security,Introduction to Application Security,beginner,1,High,2
+cyber,Application Security,Software Development Life Cycle Basics,beginner,2,High,2
+cyber,Application Security,Web Application Fundamentals,beginner,3,High,3
+cyber,Application Security,HTTP and HTTPS Basics,beginner,4,High,2
+cyber,Application Security,Authentication Basics,beginner,5,High,2
+cyber,Application Security,Authorization and Access Control,beginner,6,High,2
+cyber,Application Security,Input Validation Concepts,beginner,7,High,3
+cyber,Application Security,Common Web Security Risks,beginner,8,High,3
+cyber,Application Security,Data Protection Basics,beginner,9,High,2
+cyber,Application Security,Secure Coding Principles,beginner,10,High,3
+cyber,Application Security,API Security Fundamentals,beginner,11,Medium,3
+cyber,Application Security,Database Security Basics,beginner,12,High,2
+cyber,Application Security,Security Testing Concepts,beginner,13,Medium,3
+cyber,Application Security,Secure Development Best Practices,beginner,14,High,2
+cyber,Application Security,Build a Secure Web Application Mini Project,beginner,15,High,5
+devops,Docker,Introduction to DevOps,beginner,1,High,2
+devops,Docker,Introduction to Containers,beginner,2,High,2
+devops,Docker,Docker Architecture Basics,beginner,3,High,3
+devops,Docker,Install Docker Desktop,beginner,4,High,2
+devops,Docker,Docker Images and Containers,beginner,5,High,3
+devops,Docker,Docker Commands Basics,beginner,6,High,3
+devops,Docker,Dockerfile Fundamentals,beginner,7,High,3
+devops,Docker,Build and Run Docker Images,beginner,8,High,3
+devops,Docker,Docker Volumes Basics,beginner,9,Medium,2
+devops,Docker,Docker Networking Basics,beginner,10,Medium,3
+devops,Docker,Docker Compose Basics,beginner,11,High,3
+devops,Docker,Container Management,beginner,12,Medium,2
+devops,Docker,Docker Best Practices,beginner,13,High,2
+devops,Docker,Docker Hands-on Practice,beginner,14,High,3
+devops,Docker,Build a Containerized Mini Project,beginner,15,High,5
+devops,Kubernetes,Introduction to Kubernetes,beginner,1,High,2
+devops,Kubernetes,Container Orchestration Basics,beginner,2,High,2
+devops,Kubernetes,Kubernetes Architecture,beginner,3,High,3
+devops,Kubernetes,Kubernetes Cluster Basics,beginner,4,High,3
+devops,Kubernetes,Pods and Containers,beginner,5,High,3
+devops,Kubernetes,Deployments Basics,beginner,6,High,3
+devops,Kubernetes,Services in Kubernetes,beginner,7,High,3
+devops,Kubernetes,Namespaces Basics,beginner,8,Medium,2
+devops,Kubernetes,ConfigMaps and Secrets Concepts,beginner,9,High,3
+devops,Kubernetes,Storage Basics,beginner,10,Medium,2
+devops,Kubernetes,Scaling Applications,beginner,11,High,3
+devops,Kubernetes,Health Checks and Monitoring,beginner,12,Medium,2
+devops,Kubernetes,Kubernetes Networking Basics,beginner,13,High,3
+devops,Kubernetes,Kubernetes Hands-on Practice,beginner,14,High,4
+devops,Kubernetes,Deploy a Mini Application on Kubernetes,beginner,15,High,5
+devops,CI/CD,Introduction to CI/CD,beginner,1,High,2
+devops,CI/CD,Continuous Integration Basics,beginner,2,High,2
+devops,CI/CD,Continuous Delivery and Deployment,beginner,3,High,2
+devops,CI/CD,Version Control with Git,beginner,4,High,3
+devops,CI/CD,Github Basics,beginner,5,High,2
+devops,CI/CD,Build Automation Concepts,beginner,6,High,2
+devops,CI/CD,Automated Testing Basics,beginner,7,High,3
+devops,CI/CD,Introduction to CI CD Pipelines,beginner,8,High,3
+devops,CI/CD,GitHub Actions Basics,beginner,9,High,3
+devops,CI/CD,Pipeline Configuration,beginner,10,Medium,3
+devops,CI/CD,Build and Test Automation,beginner,11,High,3
+devops,CI/CD,Deployment Automation Basics,beginner,12,High,3
+devops,CI/CD,Pipeline Monitoring,beginner,13,Medium,2
+devops,CI/CD,CI CD Best Practices,beginner,14,High,2
+devops,CI/CD,Build a CI CD Mini Project,beginner,15,High,5
+devops,Linux,Introduction to Linux,beginner,1,High,2
+devops,Linux,Linux Operating System Basics,beginner,2,High,2
+devops,Linux,Linux Distributions,beginner,3,Medium,2
+devops,Linux,Installing Linux in a Virtual Environment,beginner,4,Medium,3
+devops,Linux,Linux File System Structure,beginner,5,High,2
+devops,Linux,Basic Linux Commands,beginner,6,High,3
+devops,Linux,File and Directory Management,beginner,7,High,2
+devops,Linux,Users and Groups Management,beginner,8,High,2
+devops,Linux,File Permissions Basics,beginner,9,High,3
+devops,Linux,Process Management,beginner,10,Medium,2
+devops,Linux,Package Management,beginner,11,Medium,2
+devops,Linux,Shell Scripting Basics,beginner,12,High,4
+devops,Linux,Networking Commands,beginner,13,Medium,2
+devops,Linux,System Monitoring Basics,beginner,14,Medium,2
+devops,Linux,Build a Linux Administration Mini Project,beginner,15,High,4
+programming,C,Introduction to C Programming,beginner,1,High,2
+programming,C,History and Features of C,beginner,2,Medium,1
+programming,C,Installing C Compiler and IDE,beginner,3,High,2
+programming,C,Structure of a C Program,beginner,4,High,2
+programming,C,Variables and Data Types,beginner,5,High,2
+programming,C,Operators in C,beginner,6,High,2
+programming,C,Conditional Statements,beginner,7,High,3
+programming,C,Loops in C,beginner,8,High,3
+programming,C,Functions in C,beginner,9,High,3
+programming,C,Arrays in C,beginner,10,High,3
+programming,C,Strings in C,beginner,11,High,2
+programming,C,Pointers Basics,beginner,12,High,4
+programming,C,Structures and Unions,beginner,13,Medium,3
+programming,C,File Handling in C,beginner,14,Medium,3
+programming,C,Build a Mini Project Using C,beginner,15,High,5
+programming,C#,Introduction to C# Programming,beginner,1,High,2
+programming,C#,Features of C#,beginner,2,Medium,1
+programming,C#,Installing .NET SDK and IDE,beginner,3,High,2
+programming,C#,Structure of a C# Program,beginner,4,High,2
+programming,C#,Variables and Data Types,beginner,5,High,2
+programming,C#,Operators in C#,beginner,6,High,2
+programming,C#,Conditional Statements,beginner,7,High,2
+programming,C#,Loops in C#,beginner,8,High,3
+programming,C#,Methods in C#,beginner,9,High,3
+programming,C#,Arrays and Strings,beginner,10,High,3
+programming,C#,Object Oriented Programming Basics,beginner,11,High,4
+programming,C#,Classes and Objects,beginner,12,High,3
+programming,C#,Inheritance and Polymorphism,beginner,13,Medium,3
+programming,C#,Exception Handling,beginner,14,Medium,2
+programming,C#,Build a Mini Project Using C#,beginner,15,High,5
+programming,Other,Introduction to Programming,beginner,1,High,2
+programming,Other,Understanding Programming Languages,beginner,2,Medium,2
+programming,Other,Setting Up Programming Environment,beginner,3,High,2
+programming,Other,Writing Your First Program,beginner,4,High,2
+programming,Other,Variables and Data Types,beginner,5,High,2
+programming,Other,Operators and Expressions,beginner,6,High,2
+programming,Other,Conditional Statements,beginner,7,High,3
+programming,Other,Loops and Iterations,beginner,8,High,3
+programming,Other,Functions and Methods,beginner,9,High,3
+programming,Other,Arrays and Collections,beginner,10,Medium,3
+programming,Other,Strings and Basic Operations,beginner,11,Medium,2
+programming,Other,Debugging Fundamentals,beginner,12,High,2
+programming,Other,Working with Libraries,beginner,13,Medium,3
+programming,Other,Problem Solving Practice,beginner,14,High,3
+programming,Other,Build a Mini Programming Project,beginner,15,High,5
+dsa,Java,Introduction to DSA,beginner,1,High,2
+dsa,Java,Java Basics for DSA,beginner,2,High,3
+dsa,Java,Time and Space Complexity,beginner,3,High,3
+dsa,Java,Arrays and Array Operations,beginner,4,High,3
+dsa,Java,Strings and String Operations,beginner,5,High,3
+dsa,Java,Searching Algorithms,beginner,6,High,3
+dsa,Java,Sorting Algorithms,beginner,7,High,4
+dsa,Java,Recursion Basics,beginner,8,High,3
+dsa,Java,Linked Lists,beginner,9,High,4
+dsa,Java,Stacks and Queues,beginner,10,High,4
+dsa,Java,Hashing Basics,beginner,11,Medium,3
+dsa,Java,Trees Fundamentals,beginner,12,High,4
+dsa,Java,Binary Search Trees,beginner,13,Medium,3
+dsa,Java,Basic Problem Solving Practice,beginner,14,High,4
+dsa,Java,Build a DSA Practice Project,beginner,15,High,5
+dsa,Python,Introduction to DSA,beginner,1,High,2
+dsa,Python,Python Basics for DSA,beginner,2,High,3
+dsa,Python,Time and Space Complexity,beginner,3,High,3
+dsa,Python,Arrays and Lists,beginner,4,High,3
+dsa,Python,Strings and String Operations,beginner,5,High,3
+dsa,Python,Searching Algorithms,beginner,6,High,3
+dsa,Python,Sorting Algorithms,beginner,7,High,4
+dsa,Python,Recursion Basics,beginner,8,High,3
+dsa,Python,Linked Lists,beginner,9,High,4
+dsa,Python,Stacks and Queues,beginner,10,High,4
+dsa,Python,Hashing and Dictionaries,beginner,11,Medium,3
+dsa,Python,Trees Fundamentals,beginner,12,High,4
+dsa,Python,Binary Search Trees,beginner,13,Medium,3
+dsa,Python,Basic Problem Solving Practice,beginner,14,High,4
+dsa,Python,Build a DSA Practice Project,beginner,15,High,5
+dsa,Other,Introduction to Data Structures and Algorithms,beginner,1,High,2
+dsa,Other,Programming Fundamentals,beginner,2,High,2
+dsa,Other,Time and Space Complexity,beginner,3,High,3
+dsa,Other,Arrays and Their Operations,beginner,4,High,3
+dsa,Other,Strings and Operations,beginner,5,High,2
+dsa,Other,Searching Algorithms,beginner,6,High,3
+dsa,Other,Sorting Algorithms,beginner,7,High,3
+dsa,Other,Recursion Fundamentals,beginner,8,High,3
+dsa,Other,Linked Lists,beginner,9,High,4
+dsa,Other,Stacks and Queues,beginner,10,High,3
+dsa,Other,Hashing Fundamentals,beginner,11,Medium,3
+dsa,Other,Trees and Tree Traversal,beginner,12,High,4
+dsa,Other,Binary Search Trees,beginner,13,Medium,3
+dsa,Other,Problem Solving Practice,beginner,14,High,4
+dsa,Other,Build a Data Structures Mini Project,beginner,15,High,5
+data,Data Analytics,Introduction to Data Analytics,beginner,1,High,2
+data,Data Analytics,Types of Data Analytics,beginner,2,Medium,2
+data,Data Analytics,Data Collection Basics,beginner,3,High,2
+data,Data Analytics,Data Cleaning Fundamentals,beginner,4,High,3
+data,Data Analytics,Data Types and Data Formats,beginner,5,Medium,2
+data,Data Analytics,Excel for Data Analysis,beginner,6,High,3
+data,Data Analytics,Introduction to SQL,beginner,7,High,3
+data,Data Analytics,SQL Queries and Filtering,beginner,8,High,3
+data,Data Analytics,Introduction to Python for Analytics,beginner,9,High,3
+data,Data Analytics,Pandas Basics,beginner,10,High,3
+data,Data Analytics,Exploratory Data Analysis,beginner,11,High,3
+data,Data Analytics,Data Visualization Fundamentals,beginner,12,High,3
+data,Data Analytics,Introduction to Statistics,beginner,13,High,3
+data,Data Analytics,Dashboard Creation Basics,beginner,14,Medium,3
+data,Data Analytics,Build a Data Analytics Mini Project,beginner,15,High,5
+data,Data Visualization,Introduction to Data Visualization,beginner,1,High,2
+data,Data Visualization,Importance of Data Visualization,beginner,2,Medium,2
+data,Data Visualization,Types of Charts and Graphs,beginner,3,High,2
+data,Data Visualization,Understanding Data and Visual Elements,beginner,4,High,2
+data,Data Visualization,Excel Charts and Graphs,beginner,5,High,3
+data,Data Visualization,Introduction to Matplotlib,beginner,6,High,3
+data,Data Visualization,Creating Basic Charts with Matplotlib,beginner,7,High,3
+data,Data Visualization,Introduction to Seaborn,beginner,8,High,3
+data,Data Visualization,Statistical Data Visualization,beginner,9,Medium,3
+data,Data Visualization,Introduction to Power BI,beginner,10,High,3
+data,Data Visualization,Power BI Dashboards Basics,beginner,11,High,3
+data,Data Visualization,Introduction to Tableau,beginner,12,Medium,3
+data,Data Visualization,Data Storytelling Basics,beginner,13,High,2
+data,Data Visualization,Dashboard Design Principles,beginner,14,High,2
+data,Data Visualization,Build a Data Visualization Mini Project,beginner,15,High,5
+data,Other,Introduction to Data Science,beginner,1,High,2
+data,Other,Understanding Data and Its Types,beginner,2,High,2
+data,Other,Data Collection Methods,beginner,3,Medium,2
+data,Other,Data Cleaning Basics,beginner,4,High,3
+data,Other,Introduction to Statistics,beginner,5,High,3
+data,Other,Basic Mathematics for Data Science,beginner,6,High,3
+data,Other,Python Basics for Data Science,beginner,7,High,3
+data,Other,NumPy Fundamentals,beginner,8,Medium,3
+data,Other,Pandas Fundamentals,beginner,9,High,3
+data,Other,Exploratory Data Analysis,beginner,10,High,3
+data,Other,Data Visualization Basics,beginner,11,High,3
+data,Other,Introduction to Machine Learning,beginner,12,Medium,3
+data,Other,Working with Real-World Datasets,beginner,13,High,3
+data,Other,Data Analysis Practice,beginner,14,High,3
+data,Other,Build a Beginner Data Science Project,beginner,15,High,5
+design,Other,Introduction to Graphic Design,beginner,1,High,2
+design,Other,Principles of Graphic Design,beginner,2,High,2
+design,Other,Elements of Design,beginner,3,High,2
+design,Other,Color Theory Basics,beginner,4,High,2
+design,Other,Typography Fundamentals,beginner,5,High,2
+design,Other,Layout and Composition,beginner,6,High,3
+design,Other,Introduction to Design Tools,beginner,7,High,2
+design,Other,Working with Shapes and Icons,beginner,8,Medium,2
+design,Other,Image Editing Basics,beginner,9,High,3
+design,Other,Creating Social Media Graphics,beginner,10,High,3
+design,Other,Poster and Banner Design,beginner,11,High,3
+design,Other,Introduction to Branding,beginner,12,Medium,2
+design,Other,Designing for Digital Platforms,beginner,13,High,3
+design,Other,Building a Design Portfolio,beginner,14,High,3
+design,Other,Create a Graphic Design Mini Project,beginner,15,High,5
+cyber,Other,Introduction to Cyber Security,beginner,1,High,2
+cyber,Other,Understanding Common Cyber Threats,beginner,2,High,2
+cyber,Other,Computer Networking Basics,beginner,3,High,3
+cyber,Other,Operating System Security Basics,beginner,4,High,2
+cyber,Other,Passwords and Authentication,beginner,5,High,2
+cyber,Other,Access Control Fundamentals,beginner,6,High,2
+cyber,Other,Malware and Phishing Awareness,beginner,7,High,2
+cyber,Other,Web Security Fundamentals,beginner,8,High,3
+cyber,Other,Data Privacy Basics,beginner,9,High,2
+cyber,Other,Encryption Fundamentals,beginner,10,High,3
+cyber,Other,Network Security Basics,beginner,11,High,3
+cyber,Other,Security Policies and Best Practices,beginner,12,Medium,2
+cyber,Other,Introduction to Security Tools,beginner,13,Medium,3
+cyber,Other,Security Awareness Practice,beginner,14,High,2
+cyber,Other,Build a Cyber Security Awareness Project,beginner,15,High,4
+web,Other,Introduction to Web Development,beginner,1,High,2
+web,Other,How Websites Work,beginner,2,High,2
+web,Other,HTML Fundamentals,beginner,3,High,3
+web,Other,CSS Fundamentals,beginner,4,High,3
+web,Other,JavaScript Basics,beginner,5,High,3
+web,Other,Responsive Web Design,beginner,6,High,3
+web,Other,Web Page Layouts,beginner,7,Medium,2
+web,Other,Introduction to Web Browsers and Developer Tools,beginner,8,Medium,2
+web,Other,DOM Fundamentals,beginner,9,High,3
+web,Other,Forms and User Input,beginner,10,High,2
+web,Other,Introduction to APIs,beginner,11,Medium,3
+web,Other,Website Testing Basics,beginner,12,High,2
+web,Other,Website Deployment Basics,beginner,13,High,3
+web,Other,Web Development Best Practices,beginner,14,Medium,2
+web,Other,Build a Beginner Website Project,beginner,15,High,5
+app,Other,Introduction to App Development,beginner,1,High,2
+app,Other,Types of Mobile Applications,beginner,2,Medium,2
+app,Other,Mobile App Development Fundamentals,beginner,3,High,2
+app,Other,Programming Basics for App Development,beginner,4,High,3
+app,Other,Introduction to Mobile UI Design,beginner,5,High,3
+app,Other,Understanding App Navigation,beginner,6,High,2
+app,Other,Working with User Input,beginner,7,High,2
+app,Other,Introduction to APIs,beginner,8,Medium,3
+app,Other,Working with JSON Data,beginner,9,Medium,2
+app,Other,Local Data Storage Basics,beginner,10,High,3
+app,Other,App Testing Fundamentals,beginner,11,High,2
+app,Other,Debugging Mobile Applications,beginner,12,High,2
+app,Other,App Performance Basics,beginner,13,Medium,2
+app,Other,App Deployment Fundamentals,beginner,14,High,3
+app,Other,Build a Beginner Mobile App Project,beginner,15,High,5
+cloud,Other,Introduction to Cloud Computing,beginner,1,High,2
+cloud,Other,Cloud Computing Service Models,beginner,2,High,2
+cloud,Other,Cloud Deployment Models,beginner,3,High,2
+cloud,Other,Cloud Infrastructure Basics,beginner,4,High,3
+cloud,Other,Virtualization Fundamentals,beginner,5,High,2
+cloud,Other,Cloud Storage Basics,beginner,6,High,2
+cloud,Other,Cloud Computing Networking,beginner,7,High,3
+cloud,Other,Cloud Database Fundamentals,beginner,8,Medium,3
+cloud,Other,Cloud Security Basics,beginner,9,High,3
+cloud,Other,Identity and Access Management,beginner,10,High,2
+cloud,Other,Cloud Monitoring Basics,beginner,11,Medium,2
+cloud,Other,Cloud Cost Management,beginner,12,Medium,2
+cloud,Other,Cloud Deployment Fundamentals,beginner,13,High,3
+cloud,Other,Cloud Hands-on Practice,beginner,14,High,3
+cloud,Other,Build a Mini Cloud Project,beginner,15,High,5
+devops,Other,Introduction to DevOps,beginner,1,High,2
+devops,Other,Software Development Life Cycle Basics,beginner,2,High,2
+devops,Other,Introduction to Version Control,beginner,3,High,2
+devops,Other,Git and GitHub Fundamentals,beginner,4,High,3
+devops,Other,Linux Fundamentals,beginner,5,High,3
+devops,Other,Networking Basics,beginner,6,High,2
+devops,Other,Introduction to Cloud Computing,beginner,7,High,3
+devops,Other,Automation Fundamentals,beginner,8,Medium,2
+devops,Other,Build Automation Basics,beginner,9,High,3
+devops,Other,Testing and Deployment Basics,beginner,10,High,3
+devops,Other,Containerization Fundamentals,beginner,11,High,3
+devops,Other,Monitoring and Logging Basics,beginner,12,Medium,2
+devops,Other,DevOps Tools Overview,beginner,13,Medium,2
+devops,Other,DevOps Best Practices,beginner,14,High,2
+devops,Other,Build a DevOps Mini Project,beginner,15,High,5
